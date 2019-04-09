@@ -12,7 +12,7 @@ fizzBuzz=function(x){
   x
  }
 }
-sapply(1L:100,fizzBuzz)
+sapply(1:100,fizzBuzz)
 
 
 wordGame=function(x,tags=c(Fizz=3L,Buzz=5L)){
